@@ -649,12 +649,12 @@ no-js
 		font-size: 0.8em;
 		text-align:left;
  	}
-	.left, .right, .norm{
+	.left, .right, .norm {
 		float:left;
 		width:90%;
 		margin-left: 10%;
 	}
-	.right{
+	.right, .norm {
 		padding-bottom:90px;
 	}
 	.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
@@ -684,6 +684,9 @@ no-js
 	}
 	#section5 h2{
 		padding-top:28px;
+	}
+	#section5 h3{
+		padding-top:14px;
 	}
 	#section2, #section3, #section4 {
 		padding:30px 0;
@@ -771,6 +774,9 @@ no-js
 		padding:0;
 	}
 	#section5 h2{
+		padding-top:0px;
+	}
+	#section5 h3{
 		padding-top:0px;
 	}
 	#section4 .right{
