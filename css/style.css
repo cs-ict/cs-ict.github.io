@@ -645,7 +645,7 @@ no-js
 		font-size: 0.8em;
 		text-align:left;
  	}
-	.left, .right{
+	.left, .right, .norm{
 		float:left;
 		width:90%;
 		margin-left: 10%;
@@ -725,7 +725,14 @@ no-js
 		margin-left: 0%;
 		padding-bottom:0px;
 	}
-
+	.norm{
+		width:90%;
+		position: relative;
+		left: 35%;
+		transform: translateX(-35%);
+		margin-left: 0%;
+		padding-bottom:0px;
+	}
 	.cd-section{
 		display: table;
 	  width: 100%;
@@ -781,12 +788,17 @@ no-js
 		left: 30%;
 		transform: translateX(-30%);
 	}
-	
+  .norm{
+		width:90%;
+		position: relative;
+		left: 30%;
+		transform: translateX(-30%);
+	}	
 }
  
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px){
-	.left, .right{
+	.left, .right, .norm{
 		transform: translateX(-30%);
 	}
 	#section2 .left, #section3 .left {
