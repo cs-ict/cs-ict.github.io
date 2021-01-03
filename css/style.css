@@ -494,11 +494,15 @@ Content Sections - basic style
 #section1 p, #section3 p, #section5 p, #section2 p, #section4 p{
 	color:#fff;
 }
-
+#section2 a, #section4 a{
+	color:#e5e5e5;
+}
+#section2 a:hover, #section4 a:hover{
+	text-decoration:underline;
+}
 #section6 p, #section7 p{
 	color:#58585A;
 }
-
 
 .cd-section:nth-of-type(even) {
   background-color: #fff;
@@ -510,13 +514,13 @@ Content Sections - basic style
   text-align: center;
 }
 
-.cd-section h1, .cd-section h2 {
+.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
   width: 90%;
   font-size: 2rem;
   line-height: 1.4;
   font-weight: bold;
 }
-.cd-section h1 b, .cd-section h2 b {
+.cd-section h1 b, .cd-section h2 b, .cd-section h3 b, .cd-section h4 b {
   color: #fff;
 }
 .cd-section p {
@@ -653,13 +657,13 @@ no-js
 	.right{
 		padding-bottom:90px;
 	}
-	.cd-section h1, .cd-section h2 {
+	.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
 		font-size: 1em;
 		text-align:left;
 		color:#fff;
   	}
 		
-  #section2 .right, #section3 .right{
+  #section2 .right, #section3 .right, .norm{
 		margin-left:20px;
 	}
 	#section2 img, #section3 img,{
@@ -690,6 +694,13 @@ no-js
 	#section4 h2{
 		padding-top:20px;
 	}
+	#section4 h3{
+		padding-top:10px;
+	}
+	#section4 h4{
+		padding-top:0px;
+		padding-bottom:5px;
+	}
 	#section4 .right{
 		margin-top:-20px;
   }
@@ -709,7 +720,7 @@ no-js
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-	.cd-section h1, .cd-section h2 {
+	.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
 		font-size: 1em;
 		margin-top:25px;
 		
@@ -748,6 +759,10 @@ no-js
   
 	#section2 li{
 		font-size:1em;
+	}
+	#section4 li{
+		font-size:1em;
+		text-align:left;
 	}
 	.section3, .section3b, #intro, .section4, .section4b, .section5{
 		padding-top:0px;
@@ -809,6 +824,10 @@ no-js
 	#section2 li{
 		padding:5px 15px;
 		text-align:center;
+	}
+	#section4 li{
+		padding:5px 15px;
+		text-align:left;
 	}
 }
 
